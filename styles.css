@@ -1,0 +1,221 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #1a73e8;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.banner h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.cta button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+    background-color: #e64a19;
+}
+
+.donation-cards {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 20px;
+    background-color: #fff;
+}
+
+.donation-cards h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 280px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #45a049;
+}
+
+.about-founders, .social-media, .quotes {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.about-founders h2, .social-media h2, .quotes h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.founder-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.founder-card {
+    width: 200px;
+    text-align: center;
+}
+
+.founder-card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.social-media .update {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.quotes p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .contact p {
+    margin-top: 10px;
+}
+
+/* Login Page Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: border-color 0.3s ease;
+}
+
+.textbox input:focus {
+    border-color: #1a73e8;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #0f62fe;
+}
+
+.login-box p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-box a {
+    color: #1a73e8;
+}
